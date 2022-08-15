@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:quizapp/view/home/home.dart';
 
 void main() {
@@ -10,11 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+    return GetMaterialApp(
+      title: 'App Quiz',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
       home: HomeView(),
     );
   }
