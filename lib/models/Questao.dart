@@ -1,9 +1,9 @@
 class Questao {
-  final int id, answer;
-  final String question;
-  final List<String> options;
+  final int id, resposta;
+  final String questao;
+  final List<String> opcoes;
 
-  Questao(this.id, this.answer, this.question, this.options);
+  Questao(this.id, this.resposta, this.questao, this.opcoes);
 }
 
 const List sample_data = [
