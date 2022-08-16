@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:websafe_svg/websafe_svg.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -10,6 +11,10 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Stack(
+        children: [WebsafeSvg.asset("assets/icons/bg.svg")],
+      ),
+    );
   }
 }
