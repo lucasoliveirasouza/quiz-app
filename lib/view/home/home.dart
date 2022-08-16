@@ -32,6 +32,7 @@ class _HomeViewState extends State<HomeView> {
                         ),
                   ),
                   Text("Entre com o seu nome"),
+                  TextFormField(),
                   Spacer(),
                 ],
               ),
