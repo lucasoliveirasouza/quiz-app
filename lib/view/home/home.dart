@@ -25,7 +25,7 @@ class _HomeViewState extends State<HomeView> {
                 children: [
                   Spacer(),
                   Text(
-                    "Let's Play Quiz,",
+                    "Vamos jogar o Quiz!",
                     style: Theme.of(context).textTheme.headline4!.copyWith(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
