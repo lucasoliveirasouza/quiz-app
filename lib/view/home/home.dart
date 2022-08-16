@@ -13,7 +13,9 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [WebsafeSvg.asset("assets/icons/bg.svg")],
+        children: [
+          WebsafeSvg.asset("assets/icons/bg.svg"),
+        ],
       ),
     );
   }
