@@ -15,6 +15,11 @@ class _HomeViewState extends State<HomeView> {
       body: Stack(
         children: [
           WebsafeSvg.asset("assets/icons/bg.svg"),
+          SafeArea(
+            child: Column(
+              children: [],
+            ),
+          )
         ],
       ),
     );
