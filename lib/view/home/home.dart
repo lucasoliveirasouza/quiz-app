@@ -17,7 +17,9 @@ class _HomeViewState extends State<HomeView> {
           WebsafeSvg.asset("assets/icons/bg.svg"),
           SafeArea(
             child: Column(
-              children: [],
+              children: [
+                Text("Let's Play Quiz,"),
+              ],
             ),
           )
         ],
