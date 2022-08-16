@@ -23,7 +23,7 @@ class _HomeViewState extends State<HomeView> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Spacer(),
+                  Spacer(flex: 2),
                   Text(
                     "Vamos jogar o Quiz!",
                     style: Theme.of(context).textTheme.headline4!.copyWith(
@@ -31,9 +31,19 @@ class _HomeViewState extends State<HomeView> {
                           fontWeight: FontWeight.bold,
                         ),
                   ),
-                  Text("Entre com o seu nome"),
-                  TextFormField(),
+                  Text("Entre com o seu nom abaixo"),
                   Spacer(),
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      fillColor: Color(0xFF1C2341),
+                      hintText: "Full Name",
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(12)),
+                      ),
+                    ),
+                  ),
+                  Spacer(flex: 2),
                 ],
               ),
             ),
