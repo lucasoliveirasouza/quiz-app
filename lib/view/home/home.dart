@@ -16,7 +16,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       body: Stack(
         children: [
-          WebsafeSvg.asset("assets/icons/bg.svg"),
+          WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill),
           SafeArea(
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
