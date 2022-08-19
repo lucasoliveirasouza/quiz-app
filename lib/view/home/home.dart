@@ -23,7 +23,9 @@ class _HomeViewState extends State<HomeView> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Spacer(),
+                  Spacer(
+                    flex: 2,
+                  ),
                   Text(
                     "Vamos jogar o Quiz!",
                     style: Theme.of(context).textTheme.headline4!.copyWith(
@@ -44,22 +46,27 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ),
                   Spacer(),
-                  Container(
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    padding: EdgeInsets.all(kDefaultPadding * 0.75),
-                    decoration: BoxDecoration(
-                      gradient: kPrimaryGradient,
-                      borderRadius: BorderRadius.all(Radius.circular(12)),
-                    ),
-                    child: Text(
-                      "Iniciar Quiz",
-                      style: Theme.of(context).textTheme.button!.copyWith(
-                            color: Colors.black,
-                          ),
+                  InkWell(
+                    onTap: () {},
+                    child: Container(
+                      width: double.infinity,
+                      alignment: Alignment.center,
+                      padding: EdgeInsets.all(kDefaultPadding * 0.75),
+                      decoration: BoxDecoration(
+                        gradient: kPrimaryGradient,
+                        borderRadius: BorderRadius.all(Radius.circular(12)),
+                      ),
+                      child: Text(
+                        "Iniciar Quiz",
+                        style: Theme.of(context).textTheme.button!.copyWith(
+                              color: Colors.black,
+                            ),
+                      ),
                     ),
                   ),
-                  Spacer(),
+                  Spacer(
+                    flex: 2,
+                  ),
                 ],
               ),
             ),
