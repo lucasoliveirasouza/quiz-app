@@ -52,7 +52,12 @@ class _HomeViewState extends State<HomeView> {
                       gradient: kPrimaryGradient,
                       borderRadius: BorderRadius.all(Radius.circular(12)),
                     ),
-                    child: Text("Iniciar Quiz"),
+                    child: Text(
+                      "Iniciar Quiz",
+                      style: Theme.of(context).textTheme.button!.copyWith(
+                            color: Colors.black,
+                          ),
+                    ),
                   ),
                   Spacer(),
                 ],
