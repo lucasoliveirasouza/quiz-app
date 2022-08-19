@@ -8,7 +8,14 @@ class QuizView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [],
+        actions: [
+          TextButton(
+              onPressed: () {},
+              child: Text(
+                "Pular",
+                style: TextStyle(color: Colors.white),
+              ))
+        ],
       ),
       body: Stack(
         children: [
