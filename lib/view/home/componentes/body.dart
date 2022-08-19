@@ -35,6 +35,24 @@ class Body extends StatelessWidget {
                               borderRadius: BorderRadius.circular(50)),
                         ),
                       ),
+                      Positioned.fill(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: kDefaultPadding / 2,
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "10 seg",
+                              ),
+                              WebsafeSvg.asset(
+                                "assets/icons/clock.svg",
+                              )
+                            ],
+                          ),
+                        ),
+                      )
                     ],
                   ),
                 ),
