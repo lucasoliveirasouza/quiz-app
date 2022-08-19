@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/view/util/constantes.dart';
 import 'package:websafe_svg/websafe_svg.dart';
 
 class Body extends StatelessWidget {
@@ -9,10 +10,19 @@ class Body extends StatelessWidget {
     return Stack(
       children: [
         WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill),
-        Column(
-          children: [
-            Container(),
-          ],
+        SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+            child: Column(
+              children: [
+                Container(
+                  width: double.infinity,
+                  height: 35,
+                  color: Colors.white,
+                ),
+              ],
+            ),
+          ),
         )
       ],
     );
