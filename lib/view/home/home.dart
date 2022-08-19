@@ -23,7 +23,7 @@ class _HomeViewState extends State<HomeView> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Spacer(flex: 2),
+                  Spacer(),
                   Text(
                     "Vamos jogar o Quiz!",
                     style: Theme.of(context).textTheme.headline4!.copyWith(
@@ -43,7 +43,7 @@ class _HomeViewState extends State<HomeView> {
                       ),
                     ),
                   ),
-                  Spacer(flex: 2),
+                  Spacer(),
                 ],
               ),
             ),
