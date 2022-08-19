@@ -9,6 +9,11 @@ class Body extends StatelessWidget {
     return Stack(
       children: [
         WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill),
+        Column(
+          children: [
+            Container(),
+          ],
+        )
       ],
     );
   }
