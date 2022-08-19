@@ -18,7 +18,12 @@ class Body extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   height: 35,
-                  color: Colors.white,
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Color(0xFF3F4768),
+                      width: 3,
+                    ),
+                  ),
                 ),
               ],
             ),
