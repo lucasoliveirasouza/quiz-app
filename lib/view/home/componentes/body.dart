@@ -25,6 +25,18 @@ class Body extends StatelessWidget {
                     ),
                     borderRadius: BorderRadius.circular(50),
                   ),
+                  child: Stack(
+                    children: [
+                      LayoutBuilder(
+                        builder: (context, constraints) => Container(
+                          width: constraints.maxWidth * 0.5,
+                          decoration: BoxDecoration(
+                              gradient: kPrimaryGradient,
+                              borderRadius: BorderRadius.circular(50)),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
