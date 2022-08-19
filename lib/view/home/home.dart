@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:quizapp/view/quiz/quiz.dart';
 import 'package:quizapp/view/util/constantes.dart';
 import 'package:websafe_svg/websafe_svg.dart';
 
@@ -47,7 +48,9 @@ class _HomeViewState extends State<HomeView> {
                   ),
                   Spacer(),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Get.to(() => QuizView());
+                    },
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
