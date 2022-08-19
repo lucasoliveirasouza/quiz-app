@@ -44,7 +44,12 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ),
                   Spacer(),
-                  Container(),
+                  Container(
+                    padding: EdgeInsets.all(kDefaultPadding * 0.75),
+                    decoration: BoxDecoration(
+                      gradient: kPrimaryGradient,
+                    ),
+                  ),
                   Spacer(),
                 ],
               ),
