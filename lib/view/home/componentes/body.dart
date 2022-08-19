@@ -23,6 +23,7 @@ class Body extends StatelessWidget {
                       color: Color(0xFF3F4768),
                       width: 3,
                     ),
+                    borderRadius: BorderRadius.circular(50),
                   ),
                 ),
               ],
