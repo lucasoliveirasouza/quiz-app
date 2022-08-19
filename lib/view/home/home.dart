@@ -31,13 +31,13 @@ class _HomeViewState extends State<HomeView> {
                           fontWeight: FontWeight.bold,
                         ),
                   ),
-                  Text("Entre com o seu nom abaixo"),
+                  Text("Entre com o seu nome abaixo"),
                   Spacer(),
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
                       fillColor: Color(0xFF1C2341),
-                      hintText: "Full Name",
+                      hintText: "Nome completo",
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(12)),
                       ),
