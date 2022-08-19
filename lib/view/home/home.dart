@@ -44,6 +44,8 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ),
                   Spacer(),
+                  Container(),
+                  Spacer(),
                 ],
               ),
             ),
