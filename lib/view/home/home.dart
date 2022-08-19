@@ -45,10 +45,14 @@ class _HomeViewState extends State<HomeView> {
                   ),
                   Spacer(),
                   Container(
+                    width: double.infinity,
+                    alignment: Alignment.center,
                     padding: EdgeInsets.all(kDefaultPadding * 0.75),
                     decoration: BoxDecoration(
                       gradient: kPrimaryGradient,
+                      borderRadius: BorderRadius.all(Radius.circular(12)),
                     ),
+                    child: Text("Iniciar Quiz"),
                   ),
                   Spacer(),
                 ],
