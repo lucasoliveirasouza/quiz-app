@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizapp/view/home/componentes/body.dart';
 import 'package:websafe_svg/websafe_svg.dart';
 
 class QuizView extends StatelessWidget {
@@ -20,11 +21,7 @@ class QuizView extends StatelessWidget {
               ))
         ],
       ),
-      body: Stack(
-        children: [
-          WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill),
-        ],
-      ),
+      body: Body(),
     );
   }
 }
