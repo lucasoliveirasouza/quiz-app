@@ -1,1 +1,1 @@
-Estudo de interface em Flutter
+Estudo de interface utilizando Flutter
