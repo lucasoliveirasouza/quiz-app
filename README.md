@@ -1,2 +1,3 @@
 # Quiz app
-Estudo de interface utilizando Flutter
+
+Estudo de interface utilizando Flutter.
